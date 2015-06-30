@@ -12,4 +12,17 @@ var velocityY = 0;
 
 //Platforms
 
+var makePlatforms = function(x,y,width,height){
+  random(0,255);
+  platforms.push({
+    x: x, y: y,
+    width: width, height: height
+  })
+};
+makePlatforms(RandomX, RandomY, width, height);
+var drawPlatforms = function(){
+  
+};
+
+
 
