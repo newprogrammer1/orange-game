@@ -9,7 +9,16 @@ var positionX = 200;
 var positionY = 0;
 var velocityX += 1;
 var velocityY = 0;
+//collideWith Function
 
+
+//Random Positions Function
+var randomX = function(){
+  
+};
+var randomY = function(){
+  
+};
 //Platforms
 
 var makePlatforms = function(x,y,width,height){
@@ -19,10 +28,24 @@ var makePlatforms = function(x,y,width,height){
     width: width, height: height
   })
 };
-makePlatforms(RandomX, RandomY, width, height);
+makePlatforms(randomX, randomY, width, height);
 var drawPlatforms = function(){
   
 };
+var orangePlatforms = [];
+var makeOrangePlatforms = function(x,y,width,height){
+  color(255,165,0);
+  orangePlatforms.push({
+    x: x, y: y,
+    width: width, height: height
+  })
+};
+var drawOrangePlatforms = function(){
+  
+};
 
-
+//Updates player
+var drawPlayer = function(){
+  ellipse();
+}
 
