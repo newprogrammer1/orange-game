@@ -10,7 +10,9 @@ var positionY = 0;
 var velocityX += 1;
 var velocityY = 0;
 //collideWith Function
-
+var collideWith = function(xv,yv,width,height){
+  
+};
 
 //Random Positions Function
 var randomX = function(){
