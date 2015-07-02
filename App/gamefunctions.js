@@ -28,7 +28,7 @@ var makePlatforms = function(x,y,width,height){
     width: width, height: height
   })
 };
-makePlatforms(randomX, randomY, width, height);
+makePlatforms(randomX, randomY, /*Put Width*/, /*height*/);
 var drawPlatforms = function(){
   
 };
@@ -40,6 +40,7 @@ var makeOrangePlatforms = function(x,y,width,height){
     width: width, height: height
   })
 };
+makeOrangePlatforms(randomX, randomY, /*Put Width*/, /*Put Height*/);
 var drawOrangePlatforms = function(){
   
 };
