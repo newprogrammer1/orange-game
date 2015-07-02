@@ -9,6 +9,8 @@ var positionX = 200;
 var positionY = 0;
 var velocityX += 1;
 var velocityY = 0;
+var charSize = 20;
+var maxFallSpeed = 8;
 //collideWith Function
 var collideWith = function(xv,yv,width,height){
   
