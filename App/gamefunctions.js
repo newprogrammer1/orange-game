@@ -21,12 +21,8 @@ var collideWith = function(xv,yv,width,height){
 };
 
 //Random Positions Function
-var randomX = function(){
-  
-};
-var randomY = function(){
-  
-};
+var randomX = random(50,255)
+var randomY = random(50,255)
 //Platforms
 
 var makePlatforms = function(x,y,width,height){
