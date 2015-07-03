@@ -2,6 +2,10 @@
 var creator = "Brendon Ho";
 var developer = "Peter Soboyejo";
 var helper = "Prafull Sharma";
+//Circle Function
+var ellipse = function(x,y,width,height){
+  
+};
 
 //Player Attributes
 var gravity = 0.4;
@@ -36,6 +40,7 @@ makePlatforms(randomX, randomY, /*Put Width*/, /*height*/);
 var drawPlatforms = function(){
   
 };
+//Orange Platforms, makes the game, the game.
 var orangePlatforms = [];
 var makeOrangePlatforms = function(x,y,width,height){
   color(255,165,0);
