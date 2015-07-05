@@ -19,6 +19,9 @@ var maxFallSpeed = 8;
 var collideWith = function(xv,yv,width,height){
   
 };
+//Platform Width and Height Functions
+var platformWidth = //Put Width;
+var platformHeight = //Put Height;
 
 //Random Positions Function
 var randomX = random(50,255)
@@ -32,7 +35,7 @@ var makePlatforms = function(x,y,width,height){
     width: width, height: height
   })
 };
-makePlatforms(randomX, randomY, /*Put Width*/, /*height*/);
+makePlatforms(randomX, randomY, platformWidth, platformHeight);
 var drawPlatforms = function(){
   
 };
@@ -45,7 +48,7 @@ var makeOrangePlatforms = function(x,y,width,height){
     width: width, height: height
   })
 };
-makeOrangePlatforms(randomX, randomY, /*Put Width*/, /*Put Height*/);
+makeOrangePlatforms(randomX, randomY, platformWidth, platformHeight);
 var drawOrangePlatforms = function(){
   
 };
