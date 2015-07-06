@@ -11,5 +11,7 @@ var platformWidth = 100;
 var platformHeight = 10;
 
 //collide function
+var collideWith = function(){
+};
 
 
